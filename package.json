@@ -4,10 +4,16 @@
   "description": "API REST para prueba técnica de teknei",
   "main": "apiRest.js",
   "scripts": {
+    "start": "node apiRest.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "git+https://github.com/JorgeHTcoding/apiLibrary.git"
   },
   "author": "Jorge Holgado",
   "license": "ISC",
+  "homepage": "https://github.com/JorgeHTcoding/apiLibrary.git#README",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
