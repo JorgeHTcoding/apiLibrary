@@ -1,6 +1,6 @@
-const mysql = require("mysql2");
+import { createConnection } from "mysql2";
 
-const connection = mysql.createConnection(
+const connection = createConnection(
 {
     host        :"myshoulder.cdvg9i8dvcl6.eu-west-3.rds.amazonaws.com",
     user        :"ComboWombo",
@@ -16,4 +16,4 @@ connection.connect(function(error){
     }
 });
 
-module.exports = connection;
+export default connection;

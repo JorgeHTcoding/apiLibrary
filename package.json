@@ -4,12 +4,12 @@
   "description": "API REST para prueba técnica de teknei",
   "main": "apiRest.js",
   "scripts": {
-    "start": "node apiRest.js",
-    "dev":"nodemon ./src/apiRest.js"
+    "start": "node ./src/apiRest.js",
+    "dev": "nodemon ./src/apiRest.js"
   },
   "repository": {
     "type": "git",
-    "url" : "git+https://github.com/JorgeHTcoding/apiLibrary.git"
+    "url": "git+https://github.com/JorgeHTcoding/apiLibrary.git"
   },
   "author": "Jorge Holgado",
   "license": "ISC",
@@ -17,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "heroku": "^7.63.4",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "router": "^1.3.7"
