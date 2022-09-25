@@ -1,5 +1,5 @@
 const { response } = require("express");
-const connection = require("../../database");
+const connection = require("../database");
 
 // GET LIBRO
 
