@@ -1,5 +1,5 @@
 const app = require("./app")
-require("../database").default
+require("./database").default
 
 app.listen(app.get("port"), function ()
 {
