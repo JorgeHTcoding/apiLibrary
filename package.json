@@ -2,9 +2,9 @@
   "name": "apilibrary",
   "version": "1.0.0",
   "description": "API REST para prueba técnica de teknei",
-  "main": "apiRest.js",
+  "main": "./src/apiRest.js",
   "scripts": {
-    "start": "node apiRest.js"  
+    "start": "node ./src/apiRest.js"  
   },
   "repository": {
     "type": "git",
