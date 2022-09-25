@@ -4,7 +4,7 @@
   "description": "API REST para prueba técnica de teknei",
   "main": "apiRest.js",
   "scripts": {
-    "start": "node ./src/apiRest"  
+    "start": "node apiRest.js"  
   },
   "repository": {
     "type": "git",
