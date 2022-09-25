@@ -4,7 +4,7 @@
   "description": "API REST para prueba técnica de teknei",
   "main": "apiRest.js",
   "scripts": {
-   "start": "nodemon --exec babel-node src/apiRest.js"
+   "start": "src/apiRest.js"
    
   },
   "repository": {
