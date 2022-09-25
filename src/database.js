@@ -1,5 +1,4 @@
 const mysql = require("mysql2")
-
 const connection = mysql.createConnection(
 {
     host        :"myshoulder.cdvg9i8dvcl6.eu-west-3.rds.amazonaws.com",
@@ -16,4 +15,4 @@ connection.connect(function(error){
     }
 });
 
-export default connection;
+module.exports = connection;
